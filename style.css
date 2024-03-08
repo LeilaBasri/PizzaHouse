@@ -24,12 +24,34 @@ body{
     line-height: 1.5;
     background-color: #1a1a1a;
     color: #dbdbdb;
+    border: 0;
+}
+.wrapper{
     background-image: url(Images/Background.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    border: 0;
 	overflow-x: hidden !important;
 }
-.wrapper{}
+
+/*  ************************* header ****************************** */
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    background: #0e0f10;
+    width: 100%;
+    margin: 10px 50px;
+    box-shadow: 0 1px #424242;
+    moz-box-shadow: 0 1px #424242;
+    -webkit-box-shadow: 0 1px #424242;
+    z-index: 100;
+}
+.contact{}
+.logo{}
+.social{}
+
+.topHeader{}
+.mainHeader{}
