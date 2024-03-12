@@ -3,22 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link  rel="shortcut icon" type="image/x-icon" href="Images/logo/logo.png" />
+    <link  rel="shortcut icon" type="image/x-icon" href="Images/logo/sanjaghak.ico" />
     <title>Pizza House</title>
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 </head>
-<body class="wrapper">
-    <header>
-        <div class="topHeader">
-            <div class="contact"></div>
-            <div class="logo"></div>
-            <div class="social"></div>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="topHeader">
+                <div class="contact"><a href="#">Phone number : 09173029582</a></div>
+                <div class="logo"><img src="Images/logo/pizza-sanjaghak.png"></div>
+                <nav class="social">
+                        <a class="footerLink" href="https://github.com/LeilaBasri" target="_blank">
+                           <i class="fab fa-github"></i>
+                        </a>
+                        <a class="footerLink" href="https://www.linkedin.com/leila-basri/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="footerLink" href="mailto:leilabasrilb@gmail.com" target="_blank">
+                           <i class="fa fa-envelope" ></i>
+                        </a>
+                        <a class="footerLink" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </nav>
+            </div>
+            <div class="mainHeader">
+                <div class="mobileNavbar">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="navbar">
+                    <a href="#home">HOME</a>
+                    <a class="dropdown-toggle" href="#">Online Order 
+                        <div class="dropdown-menu">
+                            <a href="#">Order for home Delivery</a>
+                            <a href="#">Order for Collection</a>
+                        </div>
+                    </a>
+                    <a href="#gallery">Gallery</a>
+                    <a id="loginbtn" href="login.php">Login</a>
+                    <a href="/Info/main/key-5545d167">Contact us</a>
+                    <a href="/storefinder/main/key-10d2d1ea">Our Branches</a>
+                </div>
+            </div>
+        </header>
+        <section class="chooseLocalBranch">
+            <div class="listBranches">
+                <h1>
+                    Welcome to No.1 Pizza
+                    <small>
+                        Please choose your local branch:
+                    </small>
+                </h1>
+                <a href="#" class="branchName">Afif Abad Pizza House</a>
+                <a href="#" class="branchName">Zargary Pizza House</a>
+                <a href="#" class="branchName">Maaly Abad Pizza House</a>
+            </div>
+            <div class="mapBranches">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d83291.8095782717!2d-123.16169233368525!3d49.27887850552207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPizza%20House!5e0!3m2!1sen!2sca!4v1710204757492!5m2!1sen!2sca" width="600" height="450" style="border: 20px solid white; background-color: #f1efe9;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="imageContainer"><img src="Images/footer.png"></div>
+        <div class="footerLogo">
+            <img src="Images/logo/pizza.png">
         </div>
-        <div class="mainHeader"></div>
-    </header>
-    <section></section>
-    <footer></footer>   
+        <div class="divider"></div>
+        <div>
+            <p>
+                Website design by Leila Basri
+            </p>
+        </div>
+        <div class="footerSocial">
+            <nav class="social">
+                <a class="footerLink" href="https://github.com/LeilaBasri" target="_blank">
+                   <i class="fab fa-github"></i>
+                </a>
+                <a class="footerLink" href="https://www.linkedin.com/leila-basri/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a class="footerLink" href="mailto:leilabasrilb@gmail.com" target="_blank">
+                   <i class="fa fa-envelope" ></i>
+                </a>
+                <a class="footerLink" href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </nav>
+        </div>
+    </footer>   
 </body>
 </html>
